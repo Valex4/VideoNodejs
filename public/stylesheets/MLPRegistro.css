@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorP{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color:azure;
+}
+
+
+.contenedorH{
+    background-color: #212738;
+    height: 590px;
+    width: 370px;
+    border-radius: 50px;
+    margin: 100px;
+    position: absolute;
+    top: 3%;
+    transform: translateX(-120%);
+    right: 0;
+    box-shadow: slategray 8px 8px ;
+}
+
+.img-f{
+    background-image: url(./img/fondot.jpg);
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: #1a1e2c 10px 10px 20px;
+}
+
+.img-f2{
+    background-image: url(./img/fondot.jpg);
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: #1a1e2c -10px -10px 20px;
+    float: right;
+    transform: translateY(-888px);
+
+}
+
+#tituloMLP{
+    transform: translateY(-150px);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #212738;
+}
+#tituloR{
+    letter-spacing: 1px;
+    color: white;
+    margin-top: -60px;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#usuario{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+#email{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+#nombre{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+
+#apellidos{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+
+#contraseña{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+#c-contraseña{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+
+#submit1{
+
+    background-color: #1FBAC0;
+    color: aliceblue;
+    border: 0;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+#submit1:hover{
+    background-color: #169498;
+}
+
+#submit2{
+    background-color: #212738;
+    color: aliceblue;
+    border: 2;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #1FBAC0;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#submit2:hover{
+    background-color: red;
+    color: white;
+    border: 0;
+}
+
+#submit3{
+    border-radius: 5px;
+    border-color:#1FBAC0 ;
+    width: 100px;
+    height: 30px;
+    background-color: #212738;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#submit3:hover{
+    background-color: #1FBAC0;
+    color: aliceblue;
+}

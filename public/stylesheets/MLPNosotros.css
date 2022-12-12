@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0c0e13;
+    border-radius: 10px;
+    
+}
+
+::-webkit-scrollbar-corner{
+    border-radius: 10px;
+}
+
+html{
+    overflow: overlay;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #212738;
+    align-items: center;
+    padding: 5px;
+}
+header span{
+    color: #00E0C7;
+}
+
+header a{
+
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+}
+nav a:hover{
+    color: #00E0C7;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+
+#comenzemos{
+    height: 600px;
+    display: flex;
+    justify-items: left;
+    flex-direction: column;
+    padding: 90px 30px;
+    background-color: #191E29;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(./img/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-position:right;
+
+}
+
+#comenzemos h1{
+    color: white;
+    font-size: 50px;
+}
+
+#comenzemos p{
+    margin: 3px;
+    color: white;
+    
+}
+#comenzemos a{
+    color: white;
+
+}
+#comenzemos a:hover{
+    color: #00E0C7;
+    font-weight: 600;
+}
+#comenzemos span{
+    color: #00E0C7;
+}
+
+.conten{
+    height: 400px;
+    display: flex;
+    justify-items: left;
+    flex-direction: column;
+    padding: 90px 30px;
+}
+
+.texto{
+    padding: 10px;
+    background-color: #FFA646;
+    height: 200px;
+    width:40%;
+    border-radius: 60px 0px 60px 0px;
+    color: white;
+}
+
+.contra{
+    height: 700px;
+    width: 100%;
+    background-color: #191E29;
+    color: white;
+    padding: 20px;
+}
+
+.contra .programas button{
+    margin: 10px 0 10px 0;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.programas{
+    height: 500px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+     
+}
+
+.programas .cartas{
+    background-color: #325D79;
+    padding: 0px;
+    margin: 20px;
+    height: 450px;
+    width: 380px;
+    border-radius:20px;
+    color: white;
+    overflow: hidden;
+    transition: all 0.25s;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+    
+}
+.programas .cartas button{
+    background-color: #212738;
+    width: 100px;
+    height: 40px;
+    color: #00E0C7;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.programas .cartas img{
+    width: 380px;
+    height: 200px;
+    
+}
+
+.contra span{
+    color: #00E0C7;
+}
+
+.programas .cartas:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 12px 10px rgba(0,0,0,0.2);
+}
+
+.productos{                          /* Productos Plantas y Herramientas */ /**/
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.course_about span{
+    color: #00E0C7;
+}
+.course_about a{
+    color: white;
+}
+.course_about a:hover{ 
+    color: #00E0C7;
+    font-weight: bold;
+}
+
+.productos .course_about{
+    background-color: #191E29;
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    color: white  ;
+    display: inline-table;
+    transition: all 0.25s;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+}
+
+.productos .course_about:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 12px 10px rgba(0,0,0,0.2);
+
+}
+
+.productos .course_about img{
+    height: 130px;
+}                                     /* Productos Plantas y Herramientas*/
+
+.instructor_container{
+    height: 1400px;
+    background-color: #191E29;
+    text-align: center;
+    overflow: hidden;    
+    padding-top: 80px;
+}
+
+.instructor_container .administrador{
+    background-color: #325D79;
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+    color: white  ;
+    display: inline-table;
+    transition: all 0.25s;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);   
+    margin-top: 20px;
+}
+
+.instructor_container .administrador .instructor_tag:hover{
+    color: #00E0C7;
+    font-weight: bold;
+}
+
+.instructor_container .administrador:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 12px 10px rgba(0,0,0,0.2);
+
+}
+
+.boton1{
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.boton1:hover{
+    color: #00E0C7;
+    transform: translateY(-5px);
+
+}
+
+
+.boton2{
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.boton2:hover{
+    color: #00E0C7;
+    transform: translateY(-5px);
+
+}
+
+.boton3{
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.boton3:hover{
+    color: #00E0C7;
+    transform: translateY(-5px);
+}
+
+.administrador button{
+    background:none;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+#texto-{
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: #191E29;
+}
+
+.instructor_container .administrador img{
+    height: 90px;
+    border-radius: 90px;
+} 
+
+.footer{
+    display: flex;
+    background-color: #0c0e13;
+    color: rgba(255, 255, 255, 0.6);
+}

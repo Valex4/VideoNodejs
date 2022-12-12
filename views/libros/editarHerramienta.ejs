@@ -1,0 +1,30 @@
+<%- include ('../layouts/cabecera.ejs') %>
+<br>
+<h2>Edicion de herramientas</h2>
+
+<form method="post" action="../actualizar"  enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="my-input">Nombre</label>
+        <input id="my-input" class="form-control" value="<%= datos[0].nombre %>" type="text" name="nombre" required>
+        <input id="my-input" class="form-control" value="<%= datos[0].id_producto %>" type="hidden" name="id">
+    </div>
+    <div class="form-group">
+        <input id="my-input" class="form-control" value="ninguno" type="hidden" name="categoria" required>
+    </div>
+    <div class="form-group">
+        <label for="my-input">Stock</label>
+        <input id="my-input" min="0"  class="form-control" value="<%= datos[0].stock %>" type="number" name="stock" required>
+    </div>
+    <div class="form-group">
+        <label for="my-input">Precio</label>
+        <input id="my-input"  min="0" class="form-control" value="<%= datos[0].precio %>" type="number" name="precio" required>
+    </div>
+    <div class="form-group">
+        <label for="my-input">Imagen</label>
+        <img class="img-thumbnail" width="100" src="/images/<%= datos[0].imagen %>" alt="">
+        <input id="my-input" class="form-control-file" type="file" name="archivo">
+    </div>
+<button class="btn btn-primary" type="submit">Actualizar</button>
+<a href="../" class="btn btn-danger" type="button">Cancelar</a>
+</form>
+<%- include ('../layouts/pie.ejs') %>
