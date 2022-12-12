@@ -26,7 +26,7 @@ body{
 }
 
 .img-f{
-    background-image: url(./img/fondot.jpg);
+    background-image: url(/images/fondot.jpg);
     margin: 0;
     width: 25%;
     height: 100%;
@@ -35,14 +35,14 @@ body{
 }
 
 .img-f2{
-    background-image: url(./img/fondot.jpg);
+    background-image: url(/images/fondot.jpg);
     margin: 0;
     width: 25%;
     height: 100%;
     background-size: cover;
     box-shadow: #1a1e2c -10px -10px 20px;
     float: right;
-    transform: translateY(-888px);
+    transform: translateY(-765px);
 
 }
 
@@ -101,7 +101,15 @@ body{
     border-radius: 7px;
     color: white;
 }
-#c-contraseña{
+#direccion{
+    background-color: #212738;
+    border-color: #1FBAC0;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+}
+#telefono{
     background-color: #212738;
     border-color: #1FBAC0;
     height: 30px;
@@ -160,4 +168,11 @@ body{
 #submit3:hover{
     background-color: #1FBAC0;
     color: aliceblue;
+}
+#p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-indent: 130px;
+   
 }

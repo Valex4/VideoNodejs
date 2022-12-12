@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/MLPLogin.css">
+    <link rel="icon" href="/images/logo.png">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="contenedorP">        
+        <div class="img-f">
+            <div class="img-f2">
+                <div class="contenedorH"> 
+                  <br><br><br> 
+                  <h1 id="tituloMLP">My Little Plant</h1>
+                  <h1 id="tituloU">Sign in</h1><br>
+                  <input type="text" id="usuario" autocomplete="off" placeholder="Usuario">
+                  <h1 id="tituloC"></h1>
+                  <input type="password" id="contraseña" autocomplete="off" placeholder="Password"><br><br> 
+                  <br> <p id="p">¿No tienes cuenta?</p>
+                  <input type="submit" id="submit1" value="Iniciar sesion" onclick="comprobar()">
+                  <input type="submit" id="submit2" value="Crear Cuenta" onclick="location.href='/libros/registroCliente'"><br><br>
+                  <input type="submit" id="submit3" value="Inicio" onclick="location.href='../'">
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/javascripts/MLPLogin.js"></script>
+    
+</body>
+</html>

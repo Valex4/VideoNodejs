@@ -102,5 +102,19 @@ guardarHerramienta:function(req, res){
     console.log(req.body);
 },
 //Aqui termina el crud //
-
+registroCliente:function(req, res){
+    console.log("Estas en el registro del cliente");
+},
+inicioCliente:function(req, res){
+    console.log("Estas en el inicio de sesion del cliente");
+    res.render("libros/iniciarCliente");
+},
+registroCliente:function(req, res){
+    console.log("Estas en el registro del cliente");
+    res.render("libros/registroCliente");
+},
+inicioAdmin:function(req, res){
+    console.lof("Inicio sesion Administrador");
+    res.render("libros/iniciarAdmin");
+}
 } 

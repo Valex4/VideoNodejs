@@ -337,3 +337,13 @@ nav a:hover{
     background-color: #0c0e13;
     color: rgba(255, 255, 255, 0.6);
 }
+#Admin{
+    color: aliceblue; text-align: center; cursor: pointer;
+}
+#Admin2{
+    color: aliceblue; text-align: center; cursor: pointer;
+}
+#Admin2:hover{
+    color: #00E0C7;
+    font-weight: 600;
+}

@@ -27,6 +27,8 @@ router.get("/editar/:id",librosController.editar);
 router.post("/actualizar",cargar.single("archivo"),librosController.update);
 router.get("/registroHerramienta", librosController.crearHerramienta);
 router.post("/registroHerramienta", librosController.guardarHerramienta);
-
-
-module.exports = router;
+router.get("/registroCliente", librosController.registroCliente);
+router.get("/inicioCliente", librosController.inicioCliente);
+router.get("/registroCliente", librosController.registroCliente);
+router.get("/inicioAdmin",librosController.inicioAdmin);
+module.exports = router;    
