@@ -16,20 +16,14 @@
            <div class="contenedorH"> 
                <br><br><br> <br>
                <h1 id="tituloMLP">My Little Plant</h1>
-               <h1 id="tituloR">Register New Accont</h1><br><br>
-               <form action="././registroCliente" method="post">
-               <input type="text" name="usuario" id="usuario" autocomplete="off" placeholder="User" required><br><br>
+               <h1 id="tituloR">Register New Admin Account</h1><br><br>
+               <input type="text" id="usuario" autocomplete="off" placeholder="User" required><br><br>
                <input type="email" name="email" id="email" autocomplete="off" placeholder="Email" required><br><br>
-               <input type="password" name="contrasena" id="contraseña" autocomplete="off" placeholder="Password" required><br><br> 
-               <input type="text" name="direccion" id="direccion" autocomplete="off" placeholder="Direction"><br><br> 
-               <input type="tel" name="telefono" id="telefono" autocomplete="off" placeholder="Phone Number">
+               <input type="password" id="contraseña" autocomplete="off" placeholder="Password" required><br><br> 
                <br><br><br>
-               
+               <p id="p">¿Ya tienes una cuenta?</p>
                <input type="submit" id="submit1" value="Crear Cuenta" onclick="comprobar()">
-            </form>
-            <br>
-            <p id="p">¿Ya tienes una cuenta?</p>    
-               <input type="submit" id="submit2" value="Iniciar Sesion" onclick="location.href='/libros/inicioCliente'">
+               <input type="submit" id="submit2" value="Iniciar Sesion" onclick="location.href='/libros/inicioAdmin'"> <br><br>
                <input type="submit" id="submit3" value="Inicio" onclick="location.href='../'">
                </div>
 

@@ -114,7 +114,15 @@ registroCliente:function(req, res){
     res.render("libros/registroCliente");
 },
 inicioAdmin:function(req, res){
-    console.lof("Inicio sesion Administrador");
+    console.log("Inicio sesion Administrador");
     res.render("libros/iniciarAdmin");
+},
+registroAdmin:function(req, res){
+    console.log("Estando e registro admin");
+    res.render("libros/registroAdmin");
+},
+insertarCliente:function(req, res){
+    console.log("Recibiendo los datos del cliente");
+    console.log(req.body);
 }
 } 
